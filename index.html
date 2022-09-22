@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ecstrema Redirection Service</title>
+    <meta name="description" content="Handle changes in Remi Marche's username by redirecting pages.">
+    <meta name="author" content="Remi Marche">
+</head>
+
+<body>
+    <script>
+        const oldLocation = window.location.href;
+        const newLocation = oldLocation.replace("remimarche", "ecstrema")
+
+        window.location.replace(newLocation);
+    </script>
+</body>
+
+</html>
